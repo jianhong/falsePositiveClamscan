@@ -28,3 +28,9 @@ Data scanned: 2.39 MB
 Data read: 2.46 MB (ratio 0.97:1)
 Time: 81.138 sec (1 m 21 s)
 
+> diff Infected.html noInfected.html
+
+1168c1168
+< 		d.push(w.id()),h.splice(x,1);
+---
+> 		d.push(w.id());
